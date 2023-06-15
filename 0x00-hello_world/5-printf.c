@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
-* main using printf() command
-* Return: 0 prints phrase only
+* main - Prints using printf() command
+* Return: 0 prints phrase
 */
 int main(void)
 {
