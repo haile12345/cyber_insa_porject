@@ -1,12 +1,14 @@
 #include "main.h"
+#include <stdio.h>
+
 
 /**
- * int_abs - return 0 letter not lowercase, 1 letter lowercase
+ * _abs - return 0 letter not lowercase, 1 letter lowercase
  *
  *@n: the int to print
  * Return: Always 0.
  */
-int int_abs(int n)
+int _abs(int n)
 {
 if (n > 0)
 {
