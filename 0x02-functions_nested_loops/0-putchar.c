@@ -1,11 +1,22 @@
-#include <stdio.h>
+#include "main.h"
 
-int main(void){
+/**
+ * main - Entry point
+ *
+ * Return: nothing, return void
+ */
 
-	char stack[] = "_putchar";
+int main(void)
+	{
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
-	for (int i = 0 ; stack[i] != '\0' ; i++)
-	       putchar(stack[i]);
-
-	return 0;
-}	
+	return (0);
+	}
