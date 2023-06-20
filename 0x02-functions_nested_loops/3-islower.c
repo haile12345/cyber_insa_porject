@@ -8,17 +8,15 @@
 int _islower(int c)
 
 {
-for (int i = 97 ; i <= 122 ; i++)
-{
-if (c == i)
+
+if (c > 'a' && c < 'z')
 {
 return (1);
 }
 
 else
 {
-continue;
-}
-}
 return (0);
+}
+
 }
