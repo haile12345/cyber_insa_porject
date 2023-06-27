@@ -6,9 +6,10 @@
  */
 int _strlen(char *s)
 {
-int count;
+int count, haile;
+haile = 0;
 for (count = 0; s[count] != '\0'; count++)
+haile++;
 
-
-return (count);
+return (haile);
 }
